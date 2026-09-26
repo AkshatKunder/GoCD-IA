@@ -6,6 +6,6 @@ public class AppTest {
 
     @Test
     void testGreeting() {
-        assertEquals("Hello from GoCD - WRONG!", App.greet());
+       assertEquals("Hello from GoCD!", App.greet());   
     }
 }
